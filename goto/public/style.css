@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  background-color: #dbd3d8;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar {
+  position: relative;
+  padding: 10px;
+  width: 37%;
+  border-style: double;
+  border-color: goldenrod;
+  max-width: 350px;
+  overflow-y: auto;
+}
+
+.gameboard {
+  width: 100%;
+  align-self: flex-start;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+}
+
+.nav {
+  padding: 0px;
+}
